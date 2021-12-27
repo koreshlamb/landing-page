@@ -88,10 +88,12 @@ button {
   flex-direction: column;
   align-items: center;
 
+
 }
 
 .showcase-title {
   text-align: center;
+  margin: 40px;
 }
 
 .item-border {
@@ -105,6 +107,7 @@ button {
   display: flex;
   width: 600px;
   justify-content: space-between;
+  margin-bottom: 72px;
 
 }
 
