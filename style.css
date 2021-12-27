@@ -82,3 +82,81 @@ button {
   font-weight: 700;
   color: white;
 }
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.showcase-title {
+  text-align: center;
+}
+
+.item-border {
+  height: 130px;
+  width: 130px;
+  border: solid 2px blue;
+  border-radius: 5px;
+}
+
+.showcase-images {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+
+}
+
+.item p {
+  width: 130px;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-body {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  font-family: "Roboto";
+}
+
+.quote-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign-in {
+  background-color: #3882f6;
+  display: flex;
+  justify-content:space-around;
+  padding: 50px;
+  margin: 90px;
+  color: white;
+}
+
+
+
+.sign-in-button {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 2px 18px;
+
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
